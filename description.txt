@@ -1,0 +1,28 @@
+Data from:
+https://datacatalog.worldbank.org/dataset/nepal-solar-radiation-measurement-data
+
+Description:
+LOCATION	
+Site name	NP_Solar_Dharan_IOE
+Equipment	Tier1 station with solar tracker and thermopile irradiation sensors
+Host institution	Institute of Engineering (IOE), Campus Dharan
+Elevation (m)	310
+Latitude (positive north, decimal degrees)	26,7929
+Longitude (positive east, decimal degrees)	87,2926
+
+
+FIELDS	
+time -	Date and time according to ISO8601 (yyyy-mm-dd HH:MM)
+ghi	- Global horizontal irradiance (W/m²) from thermopile pyranometer
+dni	- Direct normal irradiance (W/m²) from thermopile pyrheliometer
+dhi	- Diffused horizontal irradiance (W/m²) from thermopile pyranometer
+air_temperature	- Air temperature (°C) at 2 m height
+relative_humidity	- Relative humidity (%) at 2 m height
+wind_speed	- Wind speed (m/s) at 10 m height
+wind_speed_of_gust -	Maximum wind speed in the integration interval
+wind_from_direction_st_dev	- Wind direction in degrees north, counted clockwise (standard deviation)
+wind_from_direction	- Wind direction in degrees north, counted clockwise
+barometric_pressure	- Ambient air pressure in hPa
+rain -	Liquid precipitation in mm
+sensor_cleaning -	1 (yes) / 0 (no)
+
